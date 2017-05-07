@@ -1,7 +1,7 @@
 import { signUp, signIn } from '../api/users';
 
 const defaultState = {
-  isAuthenticated: sessionStorage.getItem('auth') ? true : false,
+  // isAuthenticated: sessionStorage.getItem('auth') ? true : false,
   authFailed: false,
   location: '/'
 }

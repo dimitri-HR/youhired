@@ -47,7 +47,7 @@
     "image-webpack-loader": "^3.3.0",
     "img-loader": "^1.2.2",
     "jquery": "^3.2.1",
-    "jsdom": "^10.0.0",
+    "jsdom": "^8.5.0",
     "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.4",
     "mocha": "^2.5.3",

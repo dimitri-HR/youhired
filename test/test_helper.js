@@ -10,6 +10,8 @@ import { createStore } from 'redux';
 import reducers from '../app/reducers/reducers';
 import chaiJquery from 'chai-jquery';
 
+// global.navigator = { userAgent: 'node.js' };
+
 // Set up testing environment to run like a browser in the command line
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
 global.window = global.document.defaultView;
